@@ -13,5 +13,8 @@ function test(){
 test.name = "Kethireddy";
 console.log(test.name); //cannot re-assign
 
+//console.log(a); //Cannot access 'a' before initialization(TDZ)
+//const a = 12;
+
 test();
 

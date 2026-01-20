@@ -9,4 +9,12 @@ if(true){
 }
 console.log(y);
 
+for(var i = 0; i < 3; i++){
+    console.log(i); 
+}
+
+
+console.log(a);// undefined, does not throw error
+var a = 12;
+
 test();

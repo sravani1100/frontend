@@ -25,4 +25,7 @@ user.age = 24;
 
 console.log(user.name +" " +user.age); // reddy 24
 
+//console.log(a); //Cannot access 'a' before initialization(TDZ)
+//let a = 12;
+
 test();
