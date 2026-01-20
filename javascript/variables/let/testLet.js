@@ -15,4 +15,14 @@ for(let i = 0; i < 5; i++){
     console.log(i);
 }
 
+let user = {
+    name: "Sravani",
+    age : 23
+};
+
+user.name = "reddy";
+user.age = 24;
+
+console.log(user.name +" " +user.age); // reddy 24
+
 test();
